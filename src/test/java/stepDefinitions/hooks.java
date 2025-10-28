@@ -7,7 +7,7 @@ public class hooks {
 	@Before("@NetBanking")
 	public void netbankinguser()
 	{
-		System.out.println("***************");
+		System.out.println("******************");
 		
 		System.out.println("mortgage user setup");}
 	@After
